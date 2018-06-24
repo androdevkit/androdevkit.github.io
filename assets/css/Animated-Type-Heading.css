@@ -1,0 +1,207 @@
+.cd-words-wrapper {
+  display:inline-block;
+  position:relative;
+  text-align:left;
+  font-size:70px;
+}
+
+.cd-words-wrapper b {
+  display:inline-block;
+  position:absolute;
+  white-space:nowrap;
+  left:0;
+  top:0;
+}
+
+.blc {
+  font-size:70px;
+}
+
+.cd-words-wrapper b.is-visible {
+  position:relative;
+}
+
+.cd-headline.clip span {
+  display:inline-block;
+  padding:.2em 0;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+  overflow:hidden;
+  vertical-align:top;
+}
+
+.cd-headline.clip b {
+  opacity:0;
+}
+
+.cd-headline b.is-visible {
+  opacity:1;
+  font-weight:900;
+}
+
+.btn.btn-link.border-pretty {
+  margin:22px;
+}
+
+.button {
+  margin:22px;
+}
+
+.glyphicon.glyphicon-arrow-down {
+  margin:5px;
+}
+
+.glyphicon.glyphicon-lock {
+  margin:1;
+}
+
+.glyphicon.glyphicon-briefcase {
+  margin:5px;
+  margin-left:4px;
+}
+
+.glyphicon.glyphicon-leaf {
+  margin:10px;
+  margin-top:5px;
+}
+
+div {
+  text-align:center;
+}
+
+.fa.fa-leaf.fa-stack-1x.fa-inverse {
+}
+
+.fa.fa-circle.fa-stack-2x {
+  margin:10px;
+}
+
+.fa.fa-leaf.fa-stack-1x.fa-inverse {
+  margin:10px;
+}
+
+p {
+  margin:5px;
+  margin-top:5px;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+  /*margin:40px;*/
+}
+
+#newheading {
+  margin:30px;
+  margin-top:40px;
+}
+
+#par1 {
+  padding:20px;
+  margin-right:20px;
+  margin-left:20px;
+}
+
+#par2 {
+  padding:10px;
+}
+
+#par3 {
+  padding:10px;
+}
+
+#par4 {
+  padding:10px;
+}
+
+#par5 {
+  padding:10px;
+}
+
+.jumbotron p {
+  margin-left:40px;
+  margin-right:40px;
+}
+
+#ruler {
+  margin-left:30px;
+  margin-right:30px;
+  color:black;
+  height:10px;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  /*width:100px;*/
+  /*align-self:center;*/
+  /*align-content:center;*/
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  border-radius:10px;
+}
+
+#xdaimage {
+  width:80px;
+}
+
+#xdaimage {
+  border-radius:45px;
+}
+
+#newpad {
+  margin-top:40px;
+  background-color:#eff7fb;
+}
+
+#getonme {
+  background-color:#eff7fb;
+}
+
+#item1 {
+  margin-top:-150px;
+}
+
+#latestversion {
+  /*margin-left:40px;*/
+  /*margin-right:40px;*/
+}
+
+#newpar {
+  margin-top:-30px;
+  /*margin-left:40px;*/
+  /*margin-right:40px;*/
+}
+
+#newpar1 {
+  /*margin-left:40px;*/
+  /*margin-right:40px;*/
+}
+
+#newcon {
+  margin-top:20px;
+}
+
+#newcon1 {
+  margin-top:50px;
+}
+
+#newcon3 {
+  margin-top:20px;
+}
+
+#newdiv {
+  text-align:left;
+}
+
+#lol1 {
+  margin-top:40px;
+}
+
+#newcons1 {
+  margin-top:40px;
+  text-align:left;
+}
+
+#newrow {
+  margin-bottom:30px;
+}
+
