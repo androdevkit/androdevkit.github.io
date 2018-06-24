@@ -205,3 +205,40 @@ p {
   margin-bottom:30px;
 }
 
+#item12 {
+  margin-top:-120px;
+}
+
+#newimage {
+  width:100px;
+  border-radius:20px;
+}
+
+#generalcolumn {
+  text-align:left;
+  align-content:left;
+  align-items:left;
+  align-self:left;
+  margin-top:50px;
+}
+
+#generalcolumn1 {
+  margin-top:35px;
+}
+
+#xdathread {
+  margin-top:40px;
+}
+
+#item1 {
+  padding:-140px;
+}
+
+#proper {
+  margin-top:40px;
+}
+
+#newhead {
+  margin-top:40px;
+}
+
