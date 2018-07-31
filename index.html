@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/Animated-Type-Heading.css">
     <link rel="stylesheet" href="assets/css/Button-Outlines---Pretty.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
@@ -33,15 +34,22 @@
 
 <body>
  <script src="assets/js/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.bootstrap-autohidingnavbar.min.js"></script>
     <script src="assets/js/Animated-Type-Heading.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/bs-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox-plus-jquery.min.js"></script>
     <script src="assets/js/Typewritter.js"></script>
+    <script>
+      $("div.navbar-fixed-top").autoHidingNavbar();
+    </script>
 	<script>
      AOS.init();
-    </script>  
+    </script>
+
 <div id="promo">
     <div data-aos="fade-up" data-aos-duration="750" data-aos-easing="ease-in-sine" data-aos-once="true" class="jumbotron">
         <h1 class="text-uppercase" style="color:rgb(255,250,250);font-size:47px;font-family:Actor, sans-serif;">Android Development Kit</h1>
@@ -57,7 +65,7 @@
         <p><a data-bs-hover-animate="pulse" class="btn btn-info btn-lg" role="button" href="download.html" style="background-color:rgb(44,149,26);">Download Trial</a><a data-bs-hover-animate="pulse" class="btn btn-info btn-lg" role="button" href="buy.html" style="background-color:rgb(44,149,26);">Buy a License</a></p>
     </div>
     <nav class="navbar navbar-inverse navbar-fixed-top" style="margin:0px 0px 0px;">
-        <div class="container">
+        <div class="container"> 
             <div class="navbar-header"><a href="#" class="navbar-brand"><img src="assets/img/ADK.png" id="logo" /><strong>ADK</strong></a><button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
