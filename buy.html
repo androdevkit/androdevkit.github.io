@@ -41,6 +41,16 @@
             opacity: 0.7;
         }
 
+        #gpayImg {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #gpayImg:hover {
+            opacity: 0.7;
+        }
+
         /* The Modal (background) */
         .modal {
             display: none;
@@ -247,6 +257,7 @@
             <div class="container" id="newcons1_2">
                 <h2 class="text-left" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">Steps to Buy
                     License</h2>
+               <div style="text-align: left;">
                 <ul>
                     <li data-aos="fade-up" data-aos-duration="700" data-aos-once="true"
                         style="font-family:ABeeZee, sans-serif;">Donate a minimum amount of $5 via the
@@ -254,7 +265,7 @@
                         country)</li>
                     <li data-aos="fade-up" data-aos-duration="700" data-aos-once="true"
                         style="font-family:ABeeZee, sans-serif;">After donating,&nbsp;<strong><a target="_blank" dd
-                                href="https://goo.gl/forms/09jjOxQc1m6leKch2">fill this online form.</a></strong>&nbsp;
+                                href="https://goo.gl/forms/09jjOxQc1m6leKch2">fill this online form</a></strong>, and enter the required fields.&nbsp;
                         <!--  <ul>
                             <li>Your&nbsp;<strong>PayPal email address or Paytm mobile number</strong></li>
                             <li>Your ADK Unique ID ( How-To get it: <a href="https://androdevkit.wordpress.com/2018/05/22/getting-your-unique-id/">here</a> )</li>
@@ -271,7 +282,7 @@ I would like to add Kaustubh as a name with link http://github.com/KaustubhPatan
                         will take some time until you get your license file. It may take more than <strong>1
                             day</strong> so have patience.</li>
 
-                </ul>
+                </ul></div>
                 <!--<div  data-aos="fade-up" data-aos-duration="700" data-aos-once="true" padding-top="20" align="center">
 				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtHpleDeCr0ZqLMmIG19KLZtKCadaD1HYwtjzGIbN3rR_tJQ/viewform?embedded=true" width="720" height="1390" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 				</div> -->
@@ -310,15 +321,60 @@ I would like to add Kaustubh as a name with link http://github.com/KaustubhPatan
         <img src="assets/img/paytm.jpg" class="modal-content" id="img01">
         <div id="caption"></div>
     </div>
+
+     <div id="gpay_dialog" class="modal" role="dialog">
+        <div class="modal-dialog">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+              <h4 class="modal-title">Instructions</h4>
+            </div>
+            <div class="modal-body">
+                <p style="font-size: 14px;"><i>Before making any payment, make sure you connect to a good wifi bandwidth router.</i><br><br></p>
+               <div style="text-align: left;">
+                <ul>
+                    <li style="font-family:ABeeZee, sans-serif;">Install an app called <b>PayMe</b>. 
+                        <a href="https://play.google.com/store/apps/details?id=com.kpstv.demopay" target="_blank">
+                            <img width=140 src="https://camo.githubusercontent.com/f9dc78b44989eb93046dee0cc745b113ae8f9c2c/68747470733a2f2f7777772e62696e672e636f6d2f74683f69643d4f49502e614b56796e464857494546775079454c6b416473775148614353267069643d4170692672733d31"></a>
+                          <br>
+                        </li>
+                    <li style="font-family:ABeeZee, sans-serif;">Open the app and complete <i>Sign-in</i> process.</li>
+                    <li style="font-family:ABeeZee, sans-serif;">Tap on <b>ADK</b> item, click <i>Buy</i>.</li>
+                    <li style="font-family:ABeeZee, sans-serif;">Follow the on-screen instruction displayed in device and complete payment process.</li>
+                    <li style="font-family:ABeeZee, sans-serif;">Once done, <a target="_blank" dd
+                        href="https://goo.gl/forms/09jjOxQc1m6leKch2">fill this online form</a>. Enter the required fields including <b>G-Pay Order Id</b> in <i>Transaction Id</i> field (from reciept mail).</li>
+                        <li style="font-family:ABeeZee, sans-serif;">After form being filled, wait for a day or two till I process it manually. Once done, will send you an email with your license.</li>
+                </ul>
+
+                <p style="font-size: 14px;font-family:ABeeZee, sans-serif;"><br>If you did not recieve license despite completing all above steps properly after 2 days, <a href="mailto:adk18kp@gmail.com" target="_blank">contact me</a>.</p>
+               </div>
+            </div>
+            <div class="modal-footer">
+              <button id="gpaycloseButton" style="background-color: #478CFE; color: white;" type="button" class="btn btn-default" >Close</button>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
     <div class="row" id="newrow">
-        <div class="col-md-6" data-aos="fade-right" data-aos-duration="700" data-aos-once="true">
+        <div class="col-md-4" data-aos="fade-right" data-aos-duration="700" data-aos-once="true">
             <h1>Indian Citizens</h1>
             <p>You can send money on PayTM</p>
             <div class="brands" id="next">
                    <img id="myImg" width=170 src="assets/img/paytm_donate.png" />
             </div>
         </div>
-        <div class="col-md-6" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
+        <div class="col-md-4" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
+            <h1>Global</h1>
+            <p>Pay with your Google pay account</p>
+            <div class="brands" id="next">
+                   <img id="gpayImg" width=170 src="assets/img/gpay.png" />
+            </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
             <h1>Everyone</h1>
             <p>Pay with PayPal or Credit/Debit card</p>
             <div class="brands" id="next">
@@ -380,8 +436,21 @@ I would like to add Kaustubh as a name with link http://github.com/KaustubhPatan
         </div>
     </footer>
 
+   
+
     <script>
         // Get the modal
+        var gpayModel = document.getElementById('gpay_dialog');
+        var gpayImage = document.getElementById('gpayImg');
+        gpayImage.onclick = function() {
+            gpayModel.style.display = "block";
+        }
+
+        var gPayCloseButton = document.getElementById('gpaycloseButton');
+        gPayCloseButton.onclick = function() {
+            gpayModel.style.display = "none";
+        }
+
         var modal = document.getElementById('myModal');
 
         // Get the image and insert it inside the modal - use its "alt" text as a caption
